@@ -12,3 +12,6 @@ $ source ./emsdk_env.sh
 ## Compile and run it
 Compile with: `emcc hello.c -s WASM=1 -o hello.html`
 Run it: `emrun --no_browser --port 8080 .`
+
+## Reading material
+* https://hacks.mozilla.org/2017/02/a-cartoon-intro-to-webassembly/
